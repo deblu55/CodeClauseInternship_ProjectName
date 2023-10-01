@@ -29,19 +29,11 @@ You can access the Background Remover Web App by following this link: https://co
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-
-If you have any questions or feedback, feel free to reach out:
-
-- Email: [Your Email Address]
-- LinkedIn: [Your LinkedIn Profile]
-
 ## Acknowledgments
 
 I would like to give thanks to CodeClause ffor giving me the oppurtunity to work on this project
 
 ---
 
-![Uploading image.png…]()
 
 
