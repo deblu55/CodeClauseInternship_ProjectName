@@ -4,7 +4,7 @@ header {
   padding: 0 100px;
   width: 100vw;
   height: 80px;
-  background-color: #3a0ca3;
+  background-color: #123f7a;
   transition: 0.3s ease-in-out all;
 }
 
@@ -14,7 +14,7 @@ header .brand a {
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
-  color: #f72585;
+  color: #83fff1;
 }
 
 header .brand img {
@@ -31,7 +31,7 @@ header nav .navList {
 }
 
 header nav .navList .navItem .navLink {
-  color: #f72585;
+  color: #83fff1;
   margin-right: 10px;
   padding: 3px 10px;
   font-size: 2.5rem;
@@ -46,8 +46,8 @@ header nav .navList .navItem a {
 }
 
 header nav .navList .navItem .navLink:hover {
-  background-color: #f72585;
-  background-image: linear-gradient(to bottom right, #4cc9f0, #f72585);
+  background-color: #83fff1;
+  background-image: linear-gradient( #fff, #83fff1);
   color: #3a0ca3;
 }
 
@@ -57,8 +57,8 @@ header nav .navList .navItem .navLinkActive {
   font-size: 2.75rem;
   border-radius: 5px;
   background-color: rgb(247, 37, 133);
-  background-image: linear-gradient(to bottom right, #4cc9f0, #f72585);
-  color: #3a0ca3;
+  background-image: linear-gradient(to right, #ace2f3, #83fff1);
+  color: #123f7a;
 }
 
 @media screen and (max-width: 948px) {

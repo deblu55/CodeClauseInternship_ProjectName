@@ -47,25 +47,28 @@ const Landing = () => {
           <img src={main} alt="mainimage" className={styles.mainImg} />
           <div className={styles.formDiv}>
             <form onSubmit={handleSubmit}>
-              <label htmlFor="file">
-                <HiFolder />
-                {"  "}Görseli Yükle
-              </label>
-              <br />
-              <input
-                type="file"
-                name="file"
-                onChange={(e) => {
-                  setUploadImg(e.target.files[0]);
-                }}
-              />
+              
+             <label htmlFor="file" className="upload-label">
+  <HiFolder /> Upload Image
+</label>
+<br />
+<div className="custom-file-input">
+  <input
+    type="file"
+    name="file"
+    id="file"
+    className="input-file"
+    onChange={(e) => {
+      setUploadImg(e.target.files[0]);
+    }}
+  />
+</div>
               <p className={styles.info}>
-                <HiExclamation /> Maksimum dosya boyutu 5 MB olmalıdır.
-                Desteklenen uzantılar: JPG, JPEG, PNG
+                <HiExclamation />The maximum file size should be 5 MB. Supported extensions: JPG, JPEG, PNG
               </p>
               <button type="submit" className={styles.formButton}>
                 <HiPaperClip />
-                {"  "}Arkaplanı Sil
+                {"  "}Kill the background
               </button>
             </form>
           </div>

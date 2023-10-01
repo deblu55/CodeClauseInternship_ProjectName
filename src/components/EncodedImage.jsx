@@ -7,7 +7,7 @@ const EncodedImage = () => {
   return (
     <>
       <div className={styles.encodedPage}>
-        <h1>Arkaplan başarıyla silindi</h1>
+        <h1 style={{color:"white"}}>Background Killed Succesfuly</h1>
         <img
           src={`data:image/png;base64,${userImage.content}`}
           alt="bgRemovedImg"
